@@ -1,0 +1,19 @@
+
+public class Compress {
+	
+	public static void main(String[] args){
+		
+	}
+	
+	public static String compress(String origional){
+		
+		String new;
+		
+		
+		return new;
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,54 @@
+
+public class Compress {
+	
+	public static void main(String[] args){
+		
+		System.out.println("enter a string");
+		String original = IO.readString();
+		compress(original);
+		
+	}
+	
+	public static String compress(String original){
+		
+		int count = 0;
+		String compressed = "";
+		
+		for(int i = 0; i < original.length();){
+			
+			char currentLetter = original.charAt(i);
+			
+			for(int j = i + 1; j < original.length(); j++){
+				
+				char nextLetter = original.charAt(j);
+				
+				if(currentLetter == nextLetter){
+					count++;
+				} else {
+					break;
+				}
+				
+			}
+			
+			i += count + 1;
+			
+			if(count > 0){
+				
+				String add = currentLetter + "";
+				int tempcount = count + 1;
+				
+				compressed += tempcount + add;
+			} else {
+				compressed += currentLetter;
+			}
+			
+			count = 0;
+			
+		}
+		
+		IO.outputStringAnswer(compressed);
+		return compressed;
+		
+	}
+
+}

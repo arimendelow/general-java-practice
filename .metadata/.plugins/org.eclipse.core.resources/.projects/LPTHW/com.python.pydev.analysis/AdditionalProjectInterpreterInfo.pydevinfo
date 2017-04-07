@@ -1,0 +1,32 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/arimendelow/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/LPTHW/com.python.pydev.analysis/v2_indexcache
+ex19|1483451516000000000|/Users/arimendelow/Documents/workspace/LPTHW/ex19.py
+ex18|1483031067000000000|/Users/arimendelow/Documents/workspace/LPTHW/ex18.py
+ex17|1483030097000000000|/Users/arimendelow/Documents/workspace/LPTHW/ex17.py
+ex16|1483029675000000000|/Users/arimendelow/Documents/workspace/LPTHW/ex16.py
+ex20|1483451955000000000|/Users/arimendelow/Documents/workspace/LPTHW/ex20.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+1=ex19
+5=ex18
+3=ex17
+4=ex16
+2=ex20
+-- END DICTIONARY
+-- START TREE 1
+9
+che|1|cheese_and_crackers!10@
+cur|2|current_file!19@current_line!19@
+in_|1|in_file!27@
+ind|1|indata!27@
+lin|3|line1!35@line3!35@line2!35@
+out|1|out_file!27@
+pri|4|print_two_again!42@print_two!42@print_all!18@print_a_line!18@
+rew|1|rewind!18@
+tar|1|target!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
